@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Frontend Mentor - Product preview card component solution
 
 This is a solution to the [Product preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
@@ -94,7 +93,3 @@ Still learning how to use the right html syntax for each code and also want to i
 - Frontend Mentor - [@stanley-24](https://www.frontendmentor.io/profile/Stanley-24)
 - Twitter/X - [@stanley_24_](https://x.com/Stanley_24_)
 
-=======
-# responsive-product-page
-This is a solution to the Product preview card component challenge on Frontend Mentor 
->>>>>>> 10e30eb567e971249d35c8bdff04f72671599ae8
