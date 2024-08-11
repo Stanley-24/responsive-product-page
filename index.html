@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <title>Frontend Mentor | Product preview card component</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <main>
+    <section> <!-- Flex box container -->
+      <div class="image-conatiner"> 
+          <img class="mobile-only" src="./images/image-product-mobile.jpg" alt="a bottle of perfume">
+          <img class="desktop-only" src="./images/image-product-desktop.jpg"  alt="a bottle of perfume" >     
+        </div>
+      <div class="product-description" id="product-description"> <!-- product description section is a flex box in column direction -->
+        <span class="category">Perfume</span>
+        <h1 class="product-heading" id="product-heading">        Gabrielle Essence Eau De Parfum
+        </h1>
+        <p class="product-summary" id="product-summary">A floral, solar and voluptuous interpretation composed by Olivier Polge, 
+          Perfumer-Creator for the House of CHANEL.
+        </p>
+        <div class="product-price" id="product-price"> <!-- flex container in row direction -->
+            <span class="sales-price" id="sales-price">
+              $149.99
+            </span>
+            <span class="list-price" id="list-price">
+              $169.99
+            </span>
+        </div>
+        <button class="add-to-cart-btn"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</button>
+      </div>
+    </section>
+  </main>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/Stanley-24">Stanley Owarieta</a>.
+  </div>
+  <script>
+    // Select the button element
+const cartButton = document.querySelector('.add-to-cart-btn');
+
+// Add an event listener to the button
+cartButton.addEventListener('click', function() {
+    // Change the button text and icon to "View Checkout" with checkout icon
+    cartButton.innerHTML = '<i class="fa-solid fa-credit-card"></i> View Checkout';
+});
+
+  </script>
+</body>
+</html>
