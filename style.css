@@ -45,8 +45,15 @@ section {
     border-radius: 20%;
 }
 
+ section > * {
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 50%;
+} 
+
 .image-container {
-    flex: 1, 0 50%;
+    flex: 1 0 50%;
+    
 
 }
 img.mobile-only {
